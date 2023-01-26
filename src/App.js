@@ -1,4 +1,5 @@
 import "./App.css";
+import AddTransaction from "./Components/AddTransaction";
 import Balance from "./Components/Balance";
 import Header from "./Components/Header";
 import IncExp from "./Components/IncExp";
@@ -12,6 +13,7 @@ function App() {
         <Balance />
         <IncExp />
         <TransactionLists />
+        <AddTransaction />
       </div>
     </div>
   );
